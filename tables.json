@@ -1,0 +1,16 @@
+{
+  "tables": [
+    {"table_name": "voterfile",
+      "columns": [
+        {"name": "voterbase_id", "type": "string", "description": "unique identifier for a registered voter"},
+        {"name": "age", "type": "integer", "description": "voter's age"},
+        {"name": "state", "type": "string", "description": "state of residence"},
+        {"name": "party", "type": "string", "description": "political party affiliation"},
+        {"name": "last_voted", "type": "date", "description": "last election they voted in"},
+        {"name": "gender", "type": "string", "description": "gender"},
+        {"name": "cat_fancy", "type": "boolean", "description": "do they subscribe to cat fancy magazine"}
+      ]
+    }
+  ]
+}
+
